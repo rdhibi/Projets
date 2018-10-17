@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "REST Authentication";
+}
+
+<h2>REST Authentication</h2>
+<div id="btn1" class="btn btn-default ">Autoriser user 1</div><br>
+<div id="btn2" class="btn btn-default ">Autoriser user 2</div><br>
+<a type="button" class="btn btn-default " href="/api/authenticate/user1@test.com/user1" target="_blank">Authenticate user1</a><br>
+<a type="button" class="btn btn-default " href="/api/authenticate/user1@test.com/user2" target="_blank">Authenticate user1(false)</a><br>
+<br><span class="label label-success" id="labelsuccess"></span>
+<span class="label label-danger" id="labeldanger"></span><br>
